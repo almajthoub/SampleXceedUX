@@ -1,0 +1,29 @@
+[{
+	"title": "لوحة المعلومات",
+	"action": "#timeline",
+	"id": "m1"
+},
+{
+	"title": "المهام",
+	"action": "#tasks",
+	"id": "m2"
+},
+{
+	"title": "مساحات العمل",
+	"action": "#workspace",
+	"id": "m3",
+	"sub": [{
+		"title": "إضافة مساحة عمل",
+		"action": "#workspace"
+	}]
+},
+{
+	"title": "البحث",
+	"action": "#search",
+	"id": "m4"
+},
+{
+	"title": "الاعدادات",
+	"action": "#settings",
+	"id": "m5"
+}]

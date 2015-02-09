@@ -6,6 +6,7 @@ XceedMeetingPlus.module('MeetingPlus', function (MeetingPlus, App, Backbone, Mar
 
         init:function()
         {
+			// App.main_menu.show(new App.Menu.main_menu());
 			App.main_menu.show(new App.Menu.main_menu());
         },
         switcher:function(action)
