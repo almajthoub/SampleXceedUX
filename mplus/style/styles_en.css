@@ -1,0 +1,118 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body{ background:#384243; font-family:Arial, Helvetica, sans-serif; direction:rtl; }
+a{ text-decoration:none; }
+
+#Header { position:fixed; width:100%; background:#333d3d; z-index:150; height:87px; border-bottom:10px solid #384243;  }
+#Header h1{ width:86px; height:87px; position:absolute; right:28px; top:0px; }
+#Header h1 a{ background:url(../images/logo.gif) no-repeat; height:87px; overflow:hidden; text-indent:100%; white-space:nowrap; display:block; }
+
+#UserMenu{ position:absolute; right:0px; top:3px; height:72px; overflow:hidden; }
+#UserMenu p{ text-align:right; float:right; font-size:13px; text-transform:uppercase; line-height:18px; padding-top:7px; }
+#UserName{ font-weight:bold; }
+#ArabicDate{ display:block; }
+#EnglishDate{ display:block; }
+#UserOptionsMenu{ float:right; width:600px; margin-left:5px; background:#2b292a;}
+#ToggleUserMenu{ width:17px;  height:72px; display:block; background:url(../images/Arrow-White-Left2.gif) no-repeat center center #444142;  }  
+
+#Menu{ position:fixed; top:97px; bottom:10px; right:0px; width:230px; z-index:100; }
+#MainMenu{ position:absolute; top:0px; bottom:0px; left:0px; width:230px; background:#3e9a9a; }
+#MainMenu div div.SubMenu{ display:none; }
+#MainMenu div .active{ display:block !important; background:#FFF; width:230px; height:300px; }
+#MainMenu h3{ border-bottom:1px solid #384243; overflow:hidden; }
+#MainMenu h3 a span{ border-right:1px solid #384243; display:block; height:46px; text-indent:10px; line-height:45px; }
+#MainMenu h3 a{ display:block; width:187px; height:46px; padding-right:43px; color:#FFF;  }
+#MainMenu h3 a:hover,#MainMenu h3 a.selected{ background:#f2f2f2; }
+#MainMenu h3 a#m1{ background:url(../images/icon-calendar.gif) no-repeat 197px center ; }
+#MainMenu h3 a#m2{ background:url(../images/icon-check.gif) no-repeat 197px center ; }
+#MainMenu h3 a#m3{ background:url(../images/icon-box.gif) no-repeat 197px center ; }
+#MainMenu h3 a#m4{ background:url(../images/icon-search.gif) no-repeat 197px center ; }
+#MainMenu h3 a#m5{ background:url(../images/icon-setting.gif) no-repeat 197px center ; }
+
+#MainMenu h3 a#m6{ background:url(../images/icon-arrow-back.gif) no-repeat 197px center ; }
+#MainMenu h3 a#m7{ background:url(../images/icon-glasshour2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m8{ background:url(../images/icon-user2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m9{ background:url(../images/icon-comment.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m10{ background:url(../images/icon-clock.gif) no-repeat 197px center #797c78; }
+
+
+#MainMenu h3 a#m11{ background:url(../images/icon-arrow-back.gif) no-repeat 197px center ; }
+#MainMenu h3 a#m12{ background:url(../images/icon-glasshour2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m13{ background:url(../images/icon-note.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m14{ background:url(../images/icon-user2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m15{ background:url(../images/icon-check2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m16{ background:url(../images/icon-like.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m17{ background:url(../images/icon-note2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m18{ background:url(../images/icon-folder.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m19{ background:url(../images/icon-photos2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m20{ background:url(../images/icon-link2.gif) no-repeat 197px center #797c78; }
+#MainMenu h3 a#m21{ background:url(../images/icon-comment.gif) no-repeat 197px center #797c78; }
+
+
+#MainMenu h3 a#m1:hover, #MainMenu h3 a#m1.selected{ background:url(../images/icon-calendar.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m2:hover, #MainMenu h3 a#m2.selected{ background:url(../images/icon-check.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m3:hover, #MainMenu h3 a#m3.selected{ background:url(../images/icon-box.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m4:hover, #MainMenu h3 a#m4.selected{ background:url(../images/icon-search.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m5:hover, #MainMenu h3 a#m5.selected{ background:url(../images/icon-setting.gif) no-repeat 197px center  #51b1b1; }
+
+
+#MainMenu h3 a#m6:hover, #MainMenu h3 a#m6.selected{ background:url(../images/icon-arrow-back.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m7:hover, #MainMenu h3 a#m7.selected{ background:url(../images/icon-glasshour2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m8:hover, #MainMenu h3 a#m8.selected{ background:url(../images/icon-user2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m9:hover, #MainMenu h3 a#m9.selected{ background:url(../images/icon-comment.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m10:hover, #MainMenu h3 a#m10.selected{ background:url(../images/icon-clock.gif) no-repeat 197px center  #5f625e; }
+
+#MainMenu h3 a#m11:hover, #MainMenu h3 a#m11.selected{ background:url(../images/icon-arrow-back.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m12:hover, #MainMenu h3 a#m12.selected{ background:url(../images/icon-glasshour2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m13:hover, #MainMenu h3 a#m13.selected{ background:url(../images/icon-note.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m14:hover, #MainMenu h3 a#m14.selected{ background:url(../images/icon-user2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m15:hover, #MainMenu h3 a#m15.selected{ background:url(../images/icon-check2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m16:hover, #MainMenu h3 a#m16.selected{ background:url(../images/icon-like.gif) no-repeat 197px center  #51b1b1; }
+#MainMenu h3 a#m17:hover, #MainMenu h3 a#m17.selected{ background:url(../images/icon-note2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m18:hover, #MainMenu h3 a#m18.selected{ background:url(../images/icon-folder.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m19:hover, #MainMenu h3 a#m19.selected{ background:url(../images/icon-photos2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m20:hover, #MainMenu h3 a#m20.selected{ background:url(../images/icon-link2.gif) no-repeat 197px center  #5f625e; }
+#MainMenu h3 a#m21:hover, #MainMenu h3 a#m21.selected{ background:url(../images/icon-comment.gif) no-repeat 197px center  #5f625e; }
+
+
+
+#ContentContainer{ position:absolute; top:97px; right:236px; left:10px; bottom:10px; }
+#ContentContainer h2{ background:#3e9a9a; color:#FFF; text-indent:23px; line-height:45px; }
+
+#TimeLine{ padding:10px; }
+.Row1{ position:absolute; width:100%; top:0px; height:300px; background:#FFF; }
+.PostRow{ overflow:hidden; }
+.PostRow .DP{ width:58px; height:75px; float:right; font-size:12px; color:#9d9d9d; text-align:left; }
+.PostRow .PostText{ width:90%;   height:59px; float:right; padding-right:15px; background:url(../images/post-bubble.gif) no-repeat right top #e6ebeb; margin-top:12px; overflow:hidden; }
+.PostRow .PostText .PostType{ float:right; width:53px; height:59px; border-left:1px solid #FFF; }
+.PostRow .PostText p{ float:right; color:#797c78; text-indent:20px; line-height:56px; }
+.PostRow .PostText p a{ color:#499f9f; }
+
+.Link{ background:url(../images/icon-link.gif) no-repeat center center; }
+.Profile{ background:url(../images/icon-user.gif) no-repeat center center; }
+.Photo{ background:url(../images/icon-photo.gif) no-repeat center center; }
+
+.Row2{ position:absolute; width:100%; top:309px; bottom:0px; }
+.Row2 .HashTags{ position:absolute; width:33%; right:0px; bottom:0px; top:0px; background:#FFF; overflow:auto; }
+.Row2 .GroupFeeds{ position:absolute; width:33%; right:33.5%; bottom:0px; top:0px; background:#FFF; overflow:auto; }
+.Row2 .LatestNews, .Row2 .UserList{ position:absolute; width:33%; right:67%; bottom:0px; top:0px; background:#FFF; overflow:auto; }
+
+.Row2 li { padding:0px 10px; border-bottom:1px solid #e1e1e1; }
+.Row2 li label{ padding:10px 5px; background:url(../images/icon-arrow-left.gif) no-repeat left center; display:block; font-size:12px; color:#818181; height:30px;  }
+.Row2 li label strong{ font-size:14px;  color:#515151; } 
+
+.Row2 .UserList li{ font-size:12px; color:#818181; padding:10px 15px; height:30px; }
+.Row2 .UserList li img{ vertical-align:middle; margin-left:10px;  }
+
+.Row3{}
+.Row3 h2{ text-indent:0px !important; }
+.IconBack{ width:43px; height:46px; background:url(../images/icon-arrow-back.gif) no-repeat center center; display:inline-block; vertical-align:middle; border-left:1px solid #384243; margin-left:10px; }
+#TimeLineFullPage{ background:#FFF; padding:20px; overflow:auto; }
+
+
+.TopRow{ overflow:hidden; margin-bottom:30px; }
+.TopRow .IconText{ width:58px; height:58px; float:right; font-size:12px; color:#9d9d9d; text-align:left; background:url(../images/icon-text.gif) no-repeat center center; }
+.TopRow .TextBox{ width:88.7%; margin-right:14px;   height:59px; float:right; padding-right:15px; background:#e6ebeb; overflow:hidden; }
+.TopRow .TextBox p{ float:right; color:#797c78; text-indent:20px; line-height:56px; }
+.TopRow .TextBox span.button{ color:#499f9f; float:left; background:#797c78; color:#FFF; cursor:pointer; padding:10px; font-size:12px; margin-top:13px; margin-left:13px; }
